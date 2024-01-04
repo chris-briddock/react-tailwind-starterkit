@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.128-alpha">
+  <PropertyGroup>
+    <PackageJsonDirectory>C:\Projects\ChristopherBriddock.ECommerce\ChristopherBriddock.ECommerce\ChristopherBriddock.ECommerce.UI\UI\ui\</PackageJsonDirectory>
+    <BuildCommand>npm run build</BuildCommand>
+    <StartupCommandWorkingDirectory>C:\Projects\ChristopherBriddock.ECommerce\ChristopherBriddock.ECommerce\ChristopherBriddock.ECommerce.UI\UI\ui\</StartupCommandWorkingDirectory>
+    <StartupCommand>npm run dev</StartupCommand>
+    <PublishAssetsDirectory>C:\Projects\ChristopherBriddock.ECommerce\ChristopherBriddock.ECommerce\ChristopherBriddock.ECommerce.UI\UI\ui\dist\</PublishAssetsDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ui\public\" />
+    <Folder Include="ui\src\assets\" />
+  </ItemGroup>
+</Project>
