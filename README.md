@@ -47,12 +47,15 @@ The application will be available at [http://localhost:8000](http://localhost:80
 
 ### Commands
 
+1. **Development**: `npm run dev` - Start the development server.
 
-**Development**: `npm run dev` - Start the development server.
-**Build**: `npm run build` - Build the production-ready application.
-**Lint**: `npm run lint` - Lint the code using ESLint.
-**Unit Tests**: `npm run test:unit` - Run Jest unit tests with coverage.
-**End-to-End Tests**: `npm run test:e2e` - Run Playwright end-to-end tests.
+2. **Build**: `npm run build` - Build the production-ready application.
+
+3. **Lint**: `npm run lint` - Lint the code using ESLint.
+
+4. **Unit Tests**: `npm run test:unit` - Run Jest unit tests with coverage.
+
+5. **End-to-End Tests**: `npm run test:e2e` - Run Playwright end-to-end tests.
 
 ### Preview
 

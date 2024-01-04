@@ -1,5 +1,3 @@
-// CookiesPopup.tsx
-
 import React, { useState, useEffect } from 'react';
 import { useTheme } from '../ThemeContext';
 import { Link } from 'react-router-dom';
@@ -21,8 +19,7 @@ const CookiesPopup: React.FC = () => {
     };
 
     const handleLearnMore = () => {
-        // Add your logic for the Learn More button
-        window.location.href = '/privacy-policy'; // Redirect to privacy policy page or update as needed
+        window.location.href = '/privacy-policy';
     };
 
     return (
